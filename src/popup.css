@@ -1,0 +1,29 @@
+:root {
+  color-scheme: light;
+  font: 14px/1.4 system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: #171717;
+  background: #fafafa;
+}
+
+main { padding: 18px; }
+h1 { margin: 0 0 12px; font-size: 18px; }
+p { margin: 8px 0; }
+progress { width: 100%; accent-color: #111; }
+.actions { display: flex; gap: 8px; margin-top: 12px; }
+button {
+  flex: 1;
+  border: 1px solid #111;
+  border-radius: 6px;
+  padding: 9px 10px;
+  color: white;
+  background: #111;
+  cursor: pointer;
+}
+button.secondary { color: #111; background: white; }
+button:disabled { cursor: not-allowed; opacity: 0.45; }
+.warning { color: #8a3b00; }

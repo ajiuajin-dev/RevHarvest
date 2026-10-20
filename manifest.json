@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "SHEIN Review Exporter",
+  "version": "0.1.0",
+  "description": "Export all normally accessible reviews from a SHEIN product page to CSV or JSON.",
+  "permissions": ["activeTab", "downloads", "scripting", "storage"],
+  "background": {
+    "service_worker": "src/service-worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_title": "Export SHEIN reviews"
+  }
+}

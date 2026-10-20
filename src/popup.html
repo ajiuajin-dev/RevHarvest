@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SHEIN Review Exporter</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <h1>Review Exporter</h1>
+      <p id="status" role="status">Ready</p>
+      <progress id="progress" max="1" value="0"></progress>
+      <p id="count">0 reviews</p>
+      <p id="warning" class="warning" hidden></p>
+      <div class="actions">
+        <button id="start">Start / Resume</button>
+        <button id="cancel" class="secondary">Cancel</button>
+      </div>
+      <div class="actions">
+        <button id="csv" class="secondary">Export CSV</button>
+        <button id="json" class="secondary">Export JSON</button>
+      </div>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

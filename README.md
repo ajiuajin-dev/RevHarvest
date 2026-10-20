@@ -1,6 +1,6 @@
-# SHEIN Review Exporter
+# RevHarvest
 
-Early Manifest V3 Chrome extension for exporting reviews that are normally accessible from a SHEIN product page.
+Manifest V3 Chrome extension for harvesting and exporting reviews that are normally accessible from a SHEIN product or review page.
 
 ## Current state
 

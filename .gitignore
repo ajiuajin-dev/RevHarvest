@@ -4,6 +4,8 @@ node_modules/
 # Generated packages and coverage
 dist/
 coverage/
+output/
+.playwright-cli/
 
 # Local configuration and secrets
 .env

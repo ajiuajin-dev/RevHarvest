@@ -2,6 +2,8 @@
 
 Manifest V3 Chrome extension for harvesting and exporting reviews that are normally accessible from a SHEIN product or review page.
 
+**Website:** https://ajiuajin-dev.github.io/RevHarvest/
+
 ## Current state
 
 The data model, deterministic fallback deduplication, CSV/JSON export, persisted progress, cancellation, and retry primitives are implemented and unit tested. The current DOM collector is deliberately conservative and must be calibrated against live SHEIN pages before completeness claims are trusted.
